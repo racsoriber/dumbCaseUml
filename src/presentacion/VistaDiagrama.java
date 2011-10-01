@@ -16,6 +16,6 @@ import uml.UMLComposite;
  * @author Juan Timoteo Ponce Ortiz
  */
 public interface VistaDiagrama {
-    public void setDiagrama( UMLComposite diagrama );
-    public void actualizar();
+    void setDiagrama( UMLComposite diagrama );
+    void actualizar();
 }

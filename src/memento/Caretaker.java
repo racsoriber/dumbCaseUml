@@ -46,7 +46,7 @@ public class Caretaker {
      * @param estado st
      */
     public void addMemento( final UMLComposite estado ){
-        System.out.println("admemento");
+        System.out.println("add memento");
         index ++;
         if( index == estados.size() )
             estados.addLast( estado );

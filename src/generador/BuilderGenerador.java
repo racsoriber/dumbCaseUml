@@ -15,7 +15,7 @@ import uml.UMLElemento;
 import uml.UMLRelacion;
 
 /**
- * Clase que inicializa y manipula un generador de código 
+ * Clase que inicializa y manipula un generador de codigo
  * de manera que este procese un modelo
  * @author Juan Timoteo Ponce Ortiz
  */
@@ -34,7 +34,7 @@ public class BuilderGenerador{
     }
     
     /**
-     * Retorna el generador de código establecido
+     * Retorna el generador de codigo establecido
      * @return GeneradorCodigo
      */
     public GeneradorCodigo getGenerador() {
@@ -52,7 +52,7 @@ public class BuilderGenerador{
     }
     
     /**
-     * Proceso que identifica y construye el generador de código segun 
+     * Proceso que identifica y construye el generador de codigo segun
      * lo indique el modelo
      * @param relaciones Relaciones del modelo
      */
